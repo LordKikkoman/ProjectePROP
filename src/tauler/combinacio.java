@@ -1,0 +1,100 @@
+package tauler;
+import java.util.Scanner;
+
+public class combinacio {
+	private int [] combinacio;
+	private int tamany;
+
+	// CONSTRUCTOR
+	public combinacio(int tamany) {
+		combinacio = new int [tamany];
+		this.tamany = tamany;
+	}
+	
+	// GETTERS AND SETTERS
+	
+	// Retorna una combinacio
+	public int[] getCombinacio() {
+		return combinacio;
+	}
+
+	// Modifica el contingut d'una combinacio
+	public void setCombinacio(int [] combinacio){
+		this.combinacio = combinacio;
+	}
+	
+	//  OTHERS
+	
+	// retorna el color de la posicio x
+	// PRE: 0 >=x >= tamany-1
+	public int get_elementx(int x){
+		return combinacio[x];
+	}
+	
+	// Canvia un element de la combinacio;
+	public void set_elementx(int x, int y){
+		if (combinacio[x] == y) {
+			combinacio[x] = 0;
+		}
+		else combinacio[x] = y;
+	}
+	
+	public void comparar(combinacio comb, int blancs, int negres){
+		for(int i = 0; i < tamany; ++i){
+			if(combinacio[i] == comb.get_elementx(i)) ++blancs;
+			else{
+				// no és igual hem de continuar comparant
+				int j = 0;
+				boolean trobat = false;
+				while(j < tamany && !trobat){
+					if(combinacio[i] == comb.get_elementx(j)){
+						++negres;
+						trobat = true;
+					}
+					++j;
+				}
+			}
+		}
+		blancs = 2;
+		negres = 50;
+		System.out.println("BLANCS:"+blancs);
+		System.out.println("negres:"+negres);
+	}
+	
+	// donat un nombre de blancs i negres els posa correctament
+	// a la combinacio de la solucio
+	public void omplir(int blancs, int negres){
+		int i = 0;
+		while(i < tamany){
+			if (blancs >0){
+				combinacio[i] = 2;
+				--blancs;
+			}
+			else if (negres > 0){
+				combinacio[i] = 1;
+				--negres;
+			}
+			else combinacio[i] = 0;
+			++i;
+		}
+	}
+	
+	// Llegeix una combinacio introduida per teclat
+	
+	public void llegir_comb(){
+		Scanner S = new Scanner(System.in);
+		System.out.println("Introdueix els valors:");
+		for(int i = 0; i < tamany; ++i){
+			combinacio[i] = S.nextInt();
+		}
+	}
+	
+	// Escriu la combinacio per pantalla
+	public void escriu_combinacio(){
+		
+		for (int i = 0; i < combinacio.length; ++i){
+			 System.out.print (combinacio[i]);	
+		}
+		System.out.println();
+	}
+}

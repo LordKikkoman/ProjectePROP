@@ -1,4 +1,5 @@
 package tauler;
+
 import java.util.Scanner;
 
 public class driver {
@@ -17,7 +18,7 @@ public class driver {
 		System.out.println("Apreta 1 per obtenir el nombre de linies del tauler.");
 		System.out.println("Apreta 2 per obtenir el nombre de d'elements de la linia.");
 		System.out.println("Apreta 3 per obtenir els elements de una linia.");
-		System.out.println("Apreta 4 per cambiar els elements de una linia.");
+		System.out.println("Apreta 4 per posar els elements a la ultima linia.");
 		System.out.println("Apreta 5 per visualitzar el tauler.");
 		System.out.println("Apreta 6 per escriure la linia per endevinar.");
 		System.out.println("Apreta 7 per obtenir la linia per endevinar.");
@@ -46,25 +47,17 @@ public class driver {
 					int l = S.nextInt();
 					if (l < 0 || l >= t.getLine_number()) System.out.println("El numero que has introduit no es valid");
 					else {
-						int v[] = t.getlinia(l);
-						for (int i = 0; i != t.getLine_size(); ++i){
-							System.out.println(i+": "+v[i]);
-						}
+						combinacio c = t.getlinia(l);
+						c.escriu_combinacio();
 					}
 					break;
 				}
 				case 4:
 				{
-					System.out.print("Introdueix numero de linia:");
-					int l = S.nextInt();
-					int[] v = new int[t.getLine_size()];
-					if (l < 0 || l >= t.getLine_number()) System.out.println("El numero que has introduit no es valid");
-					else {
-						System.out.print("Introdueix els '"+t.getLine_size()+"' colors:");
-						for (int i = 0; i != t.getLine_size(); ++i) v[i] = S.nextInt();
-						t.setlinia(v, l);
-						System.out.println("La linia ha sigut modificada");
-					}
+					combinacio comb = new combinacio(t.getLine_size());
+					comb.llegir_comb();
+					t.set_ultima_linia(comb);
+					
 					break;
 				}
 				case 5:
@@ -74,16 +67,13 @@ public class driver {
 				}
 				case 6:
 				{
-					System.out.print("Introdueix els '"+t.getLine_size()+"' colors:");
-					int[] v = new int[t.getLine_size()];
-					for (int i = 0; i != t.getLine_size(); ++i) v[i] = S.nextInt();
-					t.setInitial_line(v);
+					combinacio comb = new combinacio(t.getLine_size());
+					comb.llegir_comb();
+					t.setInitial_line(comb);
 					break;
 				}
 				case 7:{
-					int[] v = new int[t.getLine_size()];
-					v = t.getInitial_line();
-					for (int i = 0; i != t.getLine_size(); ++i) System.out.print(v[i]);
+					(t.get_comb_ini()).escriu_combinacio();
 					break;
 				}
 				case 8:
