@@ -39,28 +39,6 @@ public class combinacio {
 		else combinacio[x] = y;
 	}
 	
-	public void comparar(combinacio comb, int blancs, int negres){
-		for(int i = 0; i < tamany; ++i){
-			if(combinacio[i] == comb.get_elementx(i)) ++blancs;
-			else{
-				// no és igual hem de continuar comparant
-				int j = 0;
-				boolean trobat = false;
-				while(j < tamany && !trobat){
-					if(combinacio[i] == comb.get_elementx(j)){
-						++negres;
-						trobat = true;
-					}
-					++j;
-				}
-			}
-		}
-		blancs = 2;
-		negres = 50;
-		System.out.println("BLANCS:"+blancs);
-		System.out.println("negres:"+negres);
-	}
-	
 	// donat un nombre de blancs i negres els posa correctament
 	// a la combinacio de la solucio
 	public void omplir(int blancs, int negres){
