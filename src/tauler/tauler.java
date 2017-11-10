@@ -10,7 +10,7 @@ public class tauler { // tauler de linies del MM
 	
 	//-----COLORS-----
 	// 0-> BUIT
-	// 1-> NEGRE bé però en pos incorrecte
+	// 1-> NEGRE bÃ© perÃ² en pos incorrecte
 	// 2-> BLANC ok
 
 	// CONSTRUCTOR
@@ -23,8 +23,8 @@ public class tauler { // tauler de linies del MM
 		comb_ini = new combinacio(line_size);
 		solucio = new combinacio[line_number];
 		for(int i = 0; i < tauler.length; ++i){
-			tauler[i] = new combinacio(line_number);
-			solucio[i] = new combinacio(line_number);
+			tauler[i] = new combinacio(line_size);
+			solucio[i] = new combinacio(line_size);
 		}
 	}
 	// SETTER I GETTERS
@@ -54,7 +54,7 @@ public class tauler { // tauler de linies del MM
 		this.line_size = line_size;
 	}
 	
-	// retorn al solució de la linia "line"
+	// retorn al soluciÃ³ de la linia "line"
 	public combinacio get_solucio_linia(int line){
 		return solucio[line];
 	}
@@ -130,8 +130,8 @@ public class tauler { // tauler de linies del MM
        private void actualitzar(combinacio c){
     	   int blancs = 0;
     	   int negres = 0;
-    	   //el vector s'utilitza per que si veiem que una bola està bé
-    	   //no la conti 2 cops si una és del mateix color en mala pos
+    	   //el vector s'utilitza per que si veiem que una bola estÃ  bÃ©
+    	   //no la conti 2 cops si una Ã©s del mateix color en mala pos
     	   int[] comprovant = new int[line_size];
     	   for(int i = 0; i < line_size; ++i){
     		   if(c.get_elementx(i)== comb_ini.get_elementx(i)){
