@@ -1,0 +1,66 @@
+/* Aqui es proba el Mastermind amb 4 columnes i 6 colors. Ho aconsegueix en 5 intents */
+Introdueix el nombre de files:8
+Introdueix el nombre de columnes:4
+Introdueix el nombre de colors:6
+Ara introdueix la combinacio a endevinar!
+INTRODUEIX ELS VALORS -> FORMAT: <int>espai<int>espai<int>....
+0 3 2 3
+iteracio:0
+linia afegida: 0000
+0000///0000
+0000///0000
+0000///0000
+0000///0000
+0000///0000
+0000///0000
+0000///0000
+0000///2000
+
+----------------
+----------------
+
+iteracio:1
+linia afegida: 0111
+0000///0000
+0000///0000
+0000///0000
+0000///0000
+0000///0000
+0000///0000
+0111///2000
+0000///2000
+
+----------------
+----------------
+
+iteracio:2
+linia afegida: 0222
+0000///0000
+0000///0000
+0000///0000
+0000///0000
+0000///0000
+0222///2200
+0111///2000
+0000///2000
+
+----------------
+----------------
+
+iteracio:3
+linia afegida: 0233
+0000///0000
+0000///0000
+0000///0000
+0000///0000
+0233///2211
+0222///2200
+0111///2000
+0000///2000
+
+----------------
+----------------
+
+iteracio:4
+linia afegida: 0323
+HAS ENCERTAT
