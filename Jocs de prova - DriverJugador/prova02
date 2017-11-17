@@ -1,0 +1,36 @@
+Inserta comanda (escriu help si necessites ajuda):
+help
+Llista de comandes:
+creaJugador -> Crea un jugador amb els parametres desitjats
+getNom -> Consulta el nom del jugador
+getPuntuacio -> Consulta la puntuacio del jugador
+setNom -> Canvia el nom del jugador
+setPuntuacio -> Canvia la puntuacio del jugador
+toString -> Crea un string amb els atributs del jugador (i en quest cas es mostra per pantalla)
+---METODE fesJugada() NO IMPLEMENTAT JA QUE ES UN METODE VIRTUAL---
+
+Inserta comanda (escriu help si necessites ajuda):
+getNom
+El jugador encara no s'ha creat!
+Inserta comanda (escriu help si necessites ajuda):
+getPuntuacio
+El jugador encara no s'ha creat!
+Inserta comanda (escriu help si necessites ajuda):
+setNom
+El jugador encara no s'ha creat!
+Inserta comanda (escriu help si necessites ajuda):
+setPuntuacio
+El jugador encara no s'ha creat!
+Inserta comanda (escriu help si necessites ajuda):
+toString
+El jugador encara no s'ha creat!
+Inserta comanda (escriu help si necessites ajuda):
+creaJugador
+Inserta nom:
+prova02
+Inserta puntuacio:
+200
+Inserta comanda (escriu help si necessites ajuda):
+toString
+prova02 200
+Inserta comanda (escriu help si necessites ajuda):

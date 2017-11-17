@@ -1,0 +1,9 @@
+Aqui hi ha un parell de jocs de prova:
+El primer joc de proves es tracta d'una execucio suposant que respectem el codi
+El segon joc de proves s'executa casos extrems com per exemple, el fet d'executar una Jugada sense haver creat un Jugador anteriorment.
+
+Joc de proves 01 - Inicial (nom: prova01, puntuacio: 300)
+                   Final (nom: prova01, puntuacio: 400)
+                   
+Joc de proves 02 - Inicial(nom: ------, puntuacio: -------)
+                   Final(nom: prova021, puntuacio: 210)

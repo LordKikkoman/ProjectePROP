@@ -1,0 +1,64 @@
+Inserta comanda (escriu help si necessites ajuda):
+help
+Llista de comandes:
+creaHBreaker -> Crea un jugador amb els parametres desitjats
+getNom -> Consulta el nom del jugador
+getPuntuacio -> Consulta la puntuacio del jugador
+setNom -> Canvia el nom del jugador
+setPuntuacio -> Canvia la puntuacio del jugador
+toString -> Crea un string amb els atributs del jugador (i en quest cas es mostra per pantalla)
+fesJugada -> Permet inserir una jugada (combinacio)
+ultimaJugada -> Permet consultar la ultima jugada (combinacio) inserida
+
+---LES COMBINACIONS SON DE 4 POSICIONS PER DEFECTE---
+
+Inserta comanda (escriu help si necessites ajuda):
+toString
+El jugador encara no s'ha creat!
+Inserta comanda (escriu help si necessites ajuda):
+fesJugada
+El jugador encara no s'ha creat!
+Inserta comanda (escriu help si necessites ajuda):
+ultimaJugada
+El jugador encara no s'ha creat!
+Inserta comanda (escriu help si necessites ajuda):
+setNom
+El jugador encara no s'ha creat!
+Inserta comanda (escriu help si necessites ajuda):
+setPuntuacio
+El jugador encara no s'ha creat!
+Inserta comanda (escriu help si necessites ajuda):
+getNom
+El jugador encara no s'ha creat!
+Inserta comanda (escriu help si necessites ajuda):
+getPuntuacio
+El jugador encara no s'ha creat!
+Inserta comanda (escriu help si necessites ajuda):
+creaHBreaker
+Inserta nom:
+prova02
+Inserta puntuacio:
+200
+Inserta comanda (escriu help si necessites ajuda):
+creaHBreaker
+Inserta nom:
+prova021
+Inserta puntuacio:
+210
+Inserta comanda (escriu help si necessites ajuda):
+getNom
+prova021
+Inserta comanda (escriu help si necessites ajuda):
+getPuntuacio
+210
+Inserta comanda (escriu help si necessites ajuda):
+toString
+prova021 210
+Inserta comanda (escriu help si necessites ajuda):
+setNom
+Inserta nom:
+prova022
+Inserta comanda (escriu help si necessites ajuda):
+toString
+prova022 210
+Inserta comanda (escriu help si necessites ajuda):

@@ -1,0 +1,49 @@
+Inserta comanda (escriu help si necessites ajuda):
+help
+Llista de comandes:
+creaHBreaker -> Crea un jugador amb els parametres desitjats
+getNom -> Consulta el nom del jugador
+getPuntuacio -> Consulta la puntuacio del jugador
+setNom -> Canvia el nom del jugador
+setPuntuacio -> Canvia la puntuacio del jugador
+toString -> Crea un string amb els atributs del jugador (i en quest cas es mostra per pantalla)
+fesJugada -> Permet inserir una jugada (combinacio)
+ultimaJugada -> Permet consultar la ultima jugada (combinacio) inserida
+
+---LES COMBINACIONS SON DE 4 POSICIONS PER DEFECTE---
+
+Inserta comanda (escriu help si necessites ajuda):
+creaHBreaker
+Inserta nom:
+prova01
+Inserta puntuacio:
+300
+Inserta comanda (escriu help si necessites ajuda):
+getNom
+prova01
+Inserta comanda (escriu help si necessites ajuda):
+getPuntuacio
+300
+Inserta comanda (escriu help si necessites ajuda):
+setPuntuacio
+Inserta puntuacio:
+400
+Inserta comanda (escriu help si necessites ajuda):
+getPuntuacio                                                                                                                                                                                                                             
+400                                                                                                                                                                                                                                      
+Inserta comanda (escriu help si necessites ajuda):                                                                                                                                                                                       
+toString                                                                                                                                                                                                                                 
+prova01 400                                                                                                                                                                                                                              
+Inserta comanda (escriu help si necessites ajuda):
+fesJugada
+INTRODUEIX ELS VALORS -> FORMAT: <int>espai<int>espai<int>....
+2 1 0 3
+Inserta comanda (escriu help si necessites ajuda):
+ultimaJugada
+2103Inserta comanda (escriu help si necessites ajuda):
+fesJugada
+INTRODUEIX ELS VALORS -> FORMAT: <int>espai<int>espai<int>....
+3 3 2 1
+Inserta comanda (escriu help si necessites ajuda):
+ultimaJugada
+3321Inserta comanda (escriu help si necessites ajuda):

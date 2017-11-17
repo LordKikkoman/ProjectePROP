@@ -1,0 +1,6 @@
+Aqui hi ha un parell de jocs de prova:
+El primer joc de proves es tracta d'una execucio suposant que respectem el codi.
+El segon joc de proves s'executa casos extrems, en aquest cas: 
+    - observar el nom i puntuacio del jugador sense haver-lo creat anteriorment.
+    - crear una combinacio per endevinar amb colors que sobrepassen del rang demanat.
+

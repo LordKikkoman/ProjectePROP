@@ -1,0 +1,63 @@
+Inserta comanda (escriu help si necessites ajuda):
+help
+Llista de comandes:
+creaHMaker -> Crea un hmaker amb els parametres desitjats
+getNom -> Consulta el nom del hmaker
+getPuntuacio -> Consulta la puntuacio del hmaker
+setNom -> Canvia el nom del hmaker
+setPuntuacio -> Canvia la puntuacio del hmaker
+triaCombinacio -> Genera una combinacio inicial (inicialment 4 posicions i 6 colors)
+mostraCombinacio -> Mostra la ultima combinacio inicial que has triat
+canviaParametres -> Permet canviar quants colors s'utilitzen i la llargada de la combinacio per a la seguent tria
+toString -> Crea un string amb els atributs del hmaker (i en quest cas es mostra per pantalla)
+---METODE fesJugada() NO IMPLEMENTAT JA QUE CODEMAKERS NO L'UTILITZEN EN AQUESTA IMPLEMENTACIO---
+
+Inserta comanda (escriu help si necessites ajuda):
+creaHMaker
+Inserta nom:
+prova01
+Inserta puntuacio:
+100
+Inserta comanda (escriu help si necessites ajuda):
+getNom
+prova01
+Inserta comanda (escriu help si necessites ajuda):
+getPuntuacio
+100
+Inserta comanda (escriu help si necessites ajuda):
+setNom
+Inserta nom:
+prova011
+Inserta comanda (escriu help si necessites ajuda):
+setPuntuacio
+Inserta puntuacio:
+110
+Inserta comanda (escriu help si necessites ajuda):
+toString
+prova011 110
+Inserta comanda (escriu help si necessites ajuda):
+triaCombinacio
+Rang de colors: 0..5
+INTRODUEIX ELS VALORS -> FORMAT: <int>espai<int>espai<int>....
+3 5 0 2
+Inserta comanda (escriu help si necessites ajuda):
+mostraCombinacio
+3502Inserta comanda (escriu help si necessites ajuda):
+triaCombinacio
+Rang de colors: 0..5
+INTRODUEIX ELS VALORS -> FORMAT: <int>espai<int>espai<int>....
+4 1 1 3
+Inserta comanda (escriu help si necessites ajuda):
+mostraCombinacio
+4113Inserta comanda (escriu help si necessites ajuda):
+canviaParametres 
+Escriu els nous parametres de combinacio(format: <numPosicions> <numColors>)
+5 7
+Inserta comanda (escriu help si necessites ajuda):
+triaCombinacio
+Rang de colors: 0..6
+INTRODUEIX ELS VALORS -> FORMAT: <int>espai<int>espai<int>....
+5 6 3 2 1
+Inserta comanda (escriu help si necessites ajuda):
+mostraCombinacio
+56321Inserta comanda (escriu help si necessites ajuda):
