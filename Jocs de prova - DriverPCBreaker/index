@@ -1,0 +1,6 @@
+Aqui hi ha un parell de jocs de prova:
+Simula una partida al MasterMind el qual li entra una combinacio aleatoria i la pot resoldre mitjançant la comanda fesJugada. Hi ha un tauler stub associat a aquest driver de manera interna, ja que necessita un tauler actualitzat per a poder computar una jugada. No permetra fer mes jugades un cop aquest tauler estigui ple.
+
+El primer joc de proves es tracta d'una execucio suposant que respectem el codi.
+El segon joc de proves s'executa casos extrems on s'ha executat la resta de comandes sense haver creat un PC previament.
+

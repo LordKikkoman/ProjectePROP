@@ -1,0 +1,49 @@
+Inserta comanda (escriu help si necessites ajuda):
+help
+Llista de comandes:
+creaPCMaker -> Crea un pcmaker amb els parametres desitjats
+getNom -> Consulta el nom del pcmaker
+getPuntuacio -> Consulta la puntuacio del pcmaker
+setNom -> Canvia el nom del pcmaker
+setPuntuacio -> Canvia la puntuacio del pcmaker
+triaCombinacio -> Genera una combinacio inicial (inicialment 4 posicions i 6 colors)
+mostraCombinacio -> Mostra la ultima combinacio inicial que has triat
+canviaParametres -> Permet canviar quants colors s'utilitzen i la llargada de la combinacio per a la seguent tria
+toString -> Crea un string amb els atributs del pcmaker (i en quest cas es mostra per pantalla)
+---METODE fesJugada() NO IMPLEMENTAT JA QUE CODEMAKERS NO L'UTILITZEN EN AQUESTA IMPLEMENTACIO---
+
+Inserta comanda (escriu help si necessites ajuda):
+creaPCMaker
+Inserta nom:
+prova01
+Inserta puntuacio:
+100
+Inserta comanda (escriu help si necessites ajuda):
+getNom
+prova01
+Inserta comanda (escriu help si necessites ajuda):
+getPuntuacio
+100
+Inserta comanda (escriu help si necessites ajuda):
+setNom
+Inserta nom:
+prova011
+Inserta comanda (escriu help si necessites ajuda):
+setPuntuacio
+Inserta puntuacio:
+110
+Inserta comanda (escriu help si necessites ajuda):
+triaCombinacio
+Inserta comanda (escriu help si necessites ajuda):
+mostraCombinacio
+2233Inserta comanda (escriu help si necessites ajuda):
+canviaParametres
+Escriu els nous parametres de combinacio(format: <numPosicions> <numColors>)
+5 7
+Inserta comanda (escriu help si necessites ajuda):
+triaCombinacio
+Inserta comanda (escriu help si necessites ajuda):
+mostraCombinacio
+50016Inserta comanda (escriu help si necessites ajuda):
+toString
+prova011 110
