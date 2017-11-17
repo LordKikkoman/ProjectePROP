@@ -1,8 +1,8 @@
 Aqui hi ha un seguit de jocs de prova on s'ha probat casos basics fins a caso extrems.
 Totes amb una combinacio per endevinar aleatoria.
 
-Joc de probes 01 - 8 files, 4 columnes i 6 colors.
-Joc de probes 02 - 8 files, 5 columnes i 7 colors.
-Joc de probes 03 - 8 files, 6 columnes i 8 colors.
-Joc de probes 04 - 10 files, 20 columnes i 2 colors.
-Joc de probes 05 - 10 files, 3 columnes i 10 colors.
+Joc de proves 01 - 8 files, 4 columnes i 6 colors.
+Joc de proves 02 - 8 files, 5 columnes i 7 colors.
+Joc de proves 03 - 8 files, 6 columnes i 8 colors.
+Joc de proves 04 - 10 files, 20 columnes i 2 colors.
+Joc de proves 05 - 10 files, 3 columnes i 10 colors.
